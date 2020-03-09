@@ -16,7 +16,7 @@ class Scraper
       student_url = student.css("a").attribute("href").value 
       student_info = {:name => name,
                 :location => location,
-                :profile_url => profile_url}
+                :profile_url => student_url}
       students_arr << student_info
       
     end
