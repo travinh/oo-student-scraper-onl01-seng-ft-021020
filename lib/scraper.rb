@@ -20,7 +20,7 @@ class Scraper
       student_array << student_info
       
     end
-    student_arr
+    student_array
     
   end
 
