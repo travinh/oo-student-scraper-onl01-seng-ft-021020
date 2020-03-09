@@ -13,6 +13,7 @@ class Scraper
     doc.css("div.student-card").each do |student|
       name = student.css(".student-name").text
       location = student.css(".student-location").text
+      student_url = student.css("a")
     end
     
     
