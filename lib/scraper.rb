@@ -12,7 +12,7 @@ class Scraper
     
     doc.css("div.student-card").each do |student|
       name = student.css(".student-name")
-      
+      location = student.css(".")
     end
     
     
