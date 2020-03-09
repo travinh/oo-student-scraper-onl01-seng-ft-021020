@@ -11,7 +11,7 @@ class Scraper
     student_array = []
     
     doc.css("div.student-card").each do |student|
-      name = doc.
+      name = student.css(".")
     end
     
     
